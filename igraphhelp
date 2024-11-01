@@ -1,0 +1,4 @@
+library("igraph")
+hsigraph = as.igraph(graph_lasso_HSsample, attributes=TRUE)
+Error in i_set_vertex_attr(x, attr(value, "name"), index = value, value = attr(value,  : 
+  Length of new attribute value must be 1 or 12, the number of target vertices, not 13
